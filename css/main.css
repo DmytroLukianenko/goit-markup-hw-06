@@ -656,6 +656,7 @@ padding: 10px 29px;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  color: var(--portfolio-filter-button);
 }
 
 /* adress */
@@ -889,6 +890,11 @@ padding: 10px 29px;
   text-align: center;
   letter-spacing: 0.03em;
 }
+.police-text {
+  display: inline;
+  position: absolute;
+}
+
 .contact-form-input,
 .contact-form-message {
   margin-right: auto;
@@ -934,6 +940,14 @@ padding: 10px 29px;
   width: 448px;
 }
 
+.policy-text {
+  font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-left: 25px;
+}
+
 .policy-link {
   color: var(--accent-color);
 }
@@ -963,10 +977,11 @@ padding: 10px 29px;
   transform: translateY(-25%);
 }
 .form-close {
-  display: block;
+  display: flex;
   position: absolute;
   top: 5px;
   left: 5px;
+  overflow: hidden;
 }
 
 .close-modal:hover .form-close {
@@ -991,14 +1006,15 @@ background-image: url(../images/check.svg);
 .user-policy-icon {
   display: flex;
   align-items: center;
+
 }
 
 
 .user-policy-icon::before {
-  display: block;
+  display: flex;
+  position: absolute;
   content: "";
   width: 16px;
   height: 15px;
   background-image: url(../images/check2.svg);
-  margin-right: 8px;
 }
