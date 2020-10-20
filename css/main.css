@@ -985,7 +985,7 @@ padding: 10px 29px;
 }
 
 .contact-form-checkbox:checked + .user-policy-icon::before{
-background-image: url(./images/check.svg);
+background-image: url(../images/check.svg);
 }
 
 .user-policy-icon {
@@ -999,6 +999,6 @@ background-image: url(./images/check.svg);
   content: "";
   width: 16px;
   height: 15px;
-  background-image: url(./images/check2.svg);
+  background-image: url(../images/check2.svg);
   margin-right: 8px;
 }
