@@ -984,10 +984,13 @@ margin-left: 25px;
   overflow: hidden;
   width: 18px;
   height: 18px;
+
 }
 
-.close-modal:hover .form-close {
+.close-modal:hover .form-close,
+.close-modal:focus .form-close {
   fill: var(--accent-color);
+  
 }
 
 .visually-hiden {
